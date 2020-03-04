@@ -18,3 +18,11 @@ h1 {
     color: white;
     font-family: sans-serif;
 }
+
+section {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    display: flex;
+}
